@@ -18,6 +18,12 @@ DISPLAY environment variable is required. On Ubuntu it should be defined by defa
 DISPLAY=":0" sh live.sh
 ```
 
+for other user:
+
+```
+DISPLAY=":0" sudo -u [user] sh live.sh
+```
+
 Stop recording
 ```
 sh kill.sh
